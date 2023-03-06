@@ -17,7 +17,7 @@ public class Node {
     }
     public void setLeft(Node left) {
         this.left = left;
-    }
+    
     public Node getRight() {
         return right;
     }
@@ -33,13 +33,13 @@ public class Node {
     public Object getKey() {
         return key;
     }
-    public void setKey(String key) {
+    public void setKey(Object key) {
         this.key = key;
     }
     public Object getValue() {
         return value;
     }
-    public void setValue(Integer value) {
+    public void setValue(Object value) {
         this.value = value;
     }
 }
